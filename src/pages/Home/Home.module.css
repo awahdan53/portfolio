@@ -6,3 +6,21 @@
 .border {
   border-bottom: 1px solid white;
 }
+
+.lineHeight {
+  line-height: 56.25px;
+}
+
+.buttonLabel {
+  font-family: Bebas neue, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buttonBorder {
+  border-radius: 0px;
+}
+
+.bebasFont {
+  font-family: Bebas neue, sans-serif;
+}
