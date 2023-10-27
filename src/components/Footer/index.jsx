@@ -2,6 +2,10 @@ import classes from "./Footer.module.css";
 import { Box, Flex, Image, SimpleGrid, Stack, Text } from "@mantine/core";
 import locationIcon from "../../assets/icons/location.svg";
 import copyrightIcon from "../../assets/icons/copyright.svg";
+import linkedinIcon from "../../assets/icons/linkedin.svg";
+import instagramIcon from "../../assets/icons/instagram.svg";
+import figmaIcon from "../../assets/icons/figma.svg";
+import githubIcon from "../../assets/icons/github.svg";
 
 const Footer = () => {
   return (
@@ -58,6 +62,17 @@ const Footer = () => {
               </Flex>
             </Stack>
           </SimpleGrid>
+          <Flex justify="center">
+            <Stack gap={8}>
+              <Text c="#dcdcdc">Social Media:</Text>
+              <Flex gap={12}>
+                <Image src={linkedinIcon} h={18} />
+                <Image src={instagramIcon} h={18} />
+                <Image src={figmaIcon} h={18} />
+                <Image src={githubIcon} h={18} />
+              </Flex>
+            </Stack>
+          </Flex>
         </Box>
       </Box>
       <Box className={classes.border} w="100%"></Box>
